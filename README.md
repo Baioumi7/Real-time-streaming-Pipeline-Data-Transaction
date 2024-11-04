@@ -5,7 +5,7 @@
 This project implements a data engineering pipeline that processes transactions data from a PostgreSQL database using a real-time streaming architecture. It leverages Debezium for CDC (Change Data Capture), Apache Kafka for message streaming, Spark Streaming for real-time data processing, and MySQL as a data sink for processed data. The processed data is then visualized in Power BI.
 
 ## Architecture
-
+![Architecture](arc.png)
 ### Transactions Data
 Stored in a PostgreSQL database.
 
